@@ -1,12 +1,13 @@
 # !/bin/bash
 
 # Specify the desired output file name
-output_file="area_of_circle"
+output_file="output"
+input_file="2_operands_operations.c"
 
 # Function to compile and run the C program
 compile_and_run() {
     # Compile the C program
-    gcc -o $output_file area_of_circle.c
+    gcc -o $output_file $input_file
 
     # Check if the compilation was successful
     if [ $? -eq 0 ]; then
@@ -23,7 +24,7 @@ compile_and_run() {
 compile_and_run
 
 # Use inotifywait to monitor changes in area_of_circle.c
-while inotifywait -e close_write area_of_circle.c; do
-    echo "Detected change in area_of_circle.c. Recompiling and running the program:"
+while inotifywait -e close_write $input_file; do
+    echo "Detected change in $input_file. Recompiling and running the program:"
     compile_and_run
 done
