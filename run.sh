@@ -2,7 +2,7 @@
 
 # Specify the desired output file name
 output_file="output"
-input_file="add_digits_of_number.c"
+input_file="gets_puts_usage.c"
 
 # Function to compile and run the C program
 compile_and_run() {
@@ -14,7 +14,7 @@ compile_and_run() {
         echo "Compilation successful. Running the program:"
         # Run the compiled program
         ./$output_file
-        read -p "/nPress enter to exit."
+        read -p "Press enter to exit."
     else
         echo "Compilation failed."
     fi
