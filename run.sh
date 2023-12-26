@@ -2,7 +2,7 @@
 
 # Specify the desired output file name
 output_file="output"
-input_file="largest_among_two.c"
+input_file="factorial_of_number.c"
 
 # Function to compile and run the C program
 compile_and_run() {
