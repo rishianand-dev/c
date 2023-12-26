@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+// NON RECURSIVE WAY TO FIND FACTORIAL
 int main(){
     printf("Enter the number whose factorial you want: ");
     int number, result = 1;
@@ -8,3 +10,4 @@ int main(){
     }
     printf("Factorial of %d is: %d\n",number, result);
 }
+

@@ -2,7 +2,7 @@
 
 # Specify the desired output file name
 output_file="output"
-input_file="factorial_of_number.c"
+input_file="factorial_with_recursive.c"
 
 # Function to compile and run the C program
 compile_and_run() {
