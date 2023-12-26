@@ -2,7 +2,7 @@
 
 # Specify the desired output file name
 output_file="output"
-input_file="gets_puts_usage.c"
+input_file="largest_among_two.c"
 
 # Function to compile and run the C program
 compile_and_run() {
