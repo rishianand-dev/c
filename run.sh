@@ -2,7 +2,7 @@
 
 # Specify the desired output file name
 output_file="output"
-input_file="factorial_with_recursive.c"
+input_file="extract_a_portion_of_string.c"
 
 # Function to compile and run the C program
 compile_and_run() {
