@@ -2,7 +2,7 @@
 
 # Specify the desired output file name
 output_file="output"
-input_file="extract_a_portion_of_string.c"
+input_file="largest_and_smallest_in_a_list_of_integers.c"
 
 # Function to compile and run the C program
 compile_and_run() {
