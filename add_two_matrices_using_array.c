@@ -2,7 +2,7 @@
 
 int main()
 {
-    int row, col, sum = 0;
+    int row, col;
     printf("Enter row and column of matrix: ");
     scanf("%d %d", &row, &col);
     int first_matrix[row][col], second_matrix[row][col];
@@ -29,10 +29,10 @@ int main()
     {
         for (int j = 0; j < col; j++)
         {
-           sum = sum + first_matrix[i][j] + second_matrix[i][j]; 
+           printf("%5d", first_matrix[i][j] + second_matrix[i][j]); 
         }
+        printf("\n");
     }
-    printf("Sum of the elements of two matrices is: %d\n", sum);
     return 0;
 
 }
