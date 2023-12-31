@@ -2,7 +2,7 @@
 
 # Specify the desired output file name
 output_file="output"
-input_file="largest_and_smallest_in_a_list_of_integers.c"
+input_file="fibonacci_series.c"
 
 # Function to compile and run the C program
 compile_and_run() {
