@@ -2,7 +2,7 @@
 
 # Specify the desired output file name
 output_file="output"
-input_file="multiply_two_matrices_using_array.c"
+input_file="calculator.c"
 
 # Function to compile and run the C program
 compile_and_run() {
