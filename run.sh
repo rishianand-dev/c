@@ -2,7 +2,7 @@
 
 # Specify the desired output file name
 output_file="output"
-input_file="calculator.c"
+input_file="reverse_string.c"
 
 # Function to compile and run the C program
 compile_and_run() {
